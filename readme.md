@@ -1,7 +1,6 @@
-test
-# Grønn Webteknologi - Long Polling chatapplikasjon
+# Grønn Webteknologi - Long Polling chat applikasjon
 
-Dette er en enkel nettbasert chatapplikasjon som demonstrerer bruk av long polling for sanntidskommunikasjon. Applikasjonen bruker **Node.js**, **Express** og **Socket.IO** på backend, samt **Vue.js** på frontend.
+Dette er en nettbasert chatapplikasjon som demonstrerer bruk av long polling for sanntidskommunikasjon. Applikasjonen bruker **Node.js**, **Express** og **Socket.IO** på backend, samt **Vue.js** på frontend.
 
 
 
@@ -19,8 +18,8 @@ Følg disse trinnene for å laste ned, installere avhengigheter og kjøre applik
 ### 1. Klon repositoriet
 
 ```bash
-git clone https://github.com/ditt-brukernavn/ditt-repositorie-navn.git
-cd ditt-repositorie-navn
+git clone https://github.com/amikalsen/longpolling.git
+cd longpolling
 ```
 
 ### 2. Installer avhengigheter
@@ -35,9 +34,9 @@ npm install
 
 Du kan starte applikasjonen ved å kjøre:
 
-- **`npm start`**: Starter serveren og åpner nettleservinduer.
+- **`npm start`**: Kjører det automatiserte skriptet testApp.mjs for server og nettlesere.
 - **`node server.js`**: Starter serveren manuelt uten automatisering.
-- **`node testApp.mjs`**: Kjører det automatiserte skriptet for server og nettlesere.
+- **`node testApp.mjs`**: Kjører det automatiserte skriptet for server og nettlesere direkte.
 
 
 ### 4. Åpne applikasjonen
@@ -61,7 +60,7 @@ Applikasjonen inkluderer automatiserte funksjoner for å:
 
 - Starte serveren.
 - Åpne flere nettleservinduer.
-- Generere automatiserte meldinger for å teste long polling-ytelse.
+- Generere automatiserte meldinger for å teste long polling.
 
 Applikasjonen lukker automatisk serveren og nettleservinduene etter 40 sekunder. Du kan justere denne tiden i `testApp.mjs`.
 
